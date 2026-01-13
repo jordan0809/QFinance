@@ -25,3 +25,5 @@ In `QAE_OptionPricing.ipynb`, I implement Quantum Amplitude Estimation (QAE) to 
 - Amplitude Estimation: Instead of direct sampling, I utilize the Grover rotation operator $Q$ and Quantum Phase Estimation (QPE). By measuring the phase $\theta$ of the eigenvalues of $Q$, we can infer the expectation value $\mathbb{E}[f(S_T)]$ with high precision.
 
 - Validation: The final discounted price $V_0 = e^{-rT}\mathbb{E}[f(S_T)]$ is validated against the analytical solution of the Black-Scholes model.
+
+<img width="993" height="1052" alt="Image" src="https://github.com/user-attachments/assets/d35f4096-013f-462b-a647-4f721823cc15" />
